@@ -43,7 +43,7 @@ export default function FavoriteScreen() {
       });
   }, []);
 
-  // Delete the artist from firebase database
+    // Delete the artist from firebase database
   const deleteFavortieArtist = item => {
     firebase
       .database()
